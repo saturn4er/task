@@ -73,13 +73,14 @@ func (vs *Vars) DeepCopy() *Vars {
 
 // Var represents either a static or dynamic variable.
 type Var struct {
-	Value any
-	Live  any
-	Sh    string
-	Ref   string
-	Json  string
-	Yaml  string
-	Dir   string
+	Value     any
+	Live      any
+	Sh        string
+	Ref       string
+	Json      string
+	Yaml      string
+	Dir       string
+	Overwrite bool
 }
 
 func (v *Var) UnmarshalYAML(node *yaml.Node) error {
@@ -151,12 +152,16 @@ func (v *Var) UnmarshalYAML(node *yaml.Node) error {
 
 	case yaml.MappingNode:
 		var sh struct {
-			Sh string
+			Value     string
+			Sh        string
+			Overwrite bool
 		}
 		if err := node.Decode(&sh); err != nil {
 			return err
 		}
+		v.Value = sh.Value
 		v.Sh = sh.Sh
+		v.Overwrite = sh.Overwrite
 		return nil
 	}
 

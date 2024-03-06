@@ -20,7 +20,7 @@ func Get(t *ast.Task) []string {
 			continue
 		}
 
-		if _, alreadySet := os.LookupEnv(k); alreadySet {
+		if _, alreadySet := os.LookupEnv(k); alreadySet && !t.Env.Get(k).Overwrite {
 			continue
 		}
 
