@@ -28,6 +28,6 @@ Some installation methods are maintained by third party:
 
 ## More
 
-Also, thanks for all the [code contributors](https://github.com/go-task/task/graphs/contributors), [financial contributors](https://opencollective.com/task), all those who [reported bugs](https://github.com/go-task/task/issues?q=is%3Aissue) and [answered questions](https://github.com/go-task/task/discussions).
+Also, thanks for all the [code contributors](https://github.com/saturn4er/task/graphs/contributors), [financial contributors](https://opencollective.com/task), all those who [reported bugs](https://github.com/saturn4er/task/issues?q=is%3Aissue) and [answered questions](https://github.com/saturn4er/task/discussions).
 
 If you know something that is missing in this document, please submit a pull request.

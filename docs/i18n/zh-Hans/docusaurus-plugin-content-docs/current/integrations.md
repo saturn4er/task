@@ -24,7 +24,7 @@ Task 有一个 [针对 Visual Studio Code 的官方扩展](https://marketplace.v
 
 ## Schema
 
-This was initially created by @KROSF in [this Gist](https://gist.github.com/KROSF/c5435acf590acd632f71bb720f685895) and is now officially maintained in [this file](https://github.com/go-task/task/blob/main/docs/static/schema.json) and made available at https://taskfile.dev/schema.json. 这个 schema 可用于验证 Taskfile 并在许多代码编辑器中提供自动完成功能：
+This was initially created by @KROSF in [this Gist](https://gist.github.com/KROSF/c5435acf590acd632f71bb720f685895) and is now officially maintained in [this file](https://github.com/saturn4er/task/blob/main/docs/static/schema.json) and made available at https://taskfile.dev/schema.json. 这个 schema 可用于验证 Taskfile 并在许多代码编辑器中提供自动完成功能：
 
 ### Visual Studio Code
 

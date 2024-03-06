@@ -27,7 +27,7 @@ your Taskfile uses the version 3 schema instead. A list of changes between
 version 2 and version 3 are available in the [Task v3 Release Notes][v3.0.0].
 
 <!-- prettier-ignore-start -->
-[v3.0.0]: https://github.com/go-task/task/releases/tag/v3.0.0
-[v3.33.0]: https://github.com/go-task/task/releases/tag/v3.33.0
-[deprecation-notice]: https://github.com/go-task/task/issues/1197
+[v3.0.0]: https://github.com/saturn4er/task/releases/tag/v3.0.0
+[v3.33.0]: https://github.com/saturn4er/task/releases/tag/v3.33.0
+[deprecation-notice]: https://github.com/saturn4er/task/issues/1197
 <!-- prettier-ignore-end -->

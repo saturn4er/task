@@ -3,8 +3,8 @@ package fingerprint
 import (
 	"context"
 
-	"github.com/go-task/task/v3/internal/logger"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/saturn4er/task/v3/internal/logger"
+	"github.com/saturn4er/task/v3/taskfile/ast"
 )
 
 type (

@@ -5,7 +5,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/go-task/task/v3/internal/deepcopy"
+	"github.com/saturn4er/task/v3/internal/deepcopy"
 )
 
 // Cmd is a task command

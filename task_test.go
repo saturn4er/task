@@ -16,10 +16,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-task/task/v3"
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/filepathext"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/saturn4er/task/v3"
+	"github.com/saturn4er/task/v3/errors"
+	"github.com/saturn4er/task/v3/internal/filepathext"
+	"github.com/saturn4er/task/v3/taskfile/ast"
 )
 
 func init() {

@@ -6,8 +6,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/go-task/task/v3/internal/experiments"
-	"github.com/go-task/task/v3/internal/omap"
+	"github.com/saturn4er/task/v3/internal/experiments"
+	"github.com/saturn4er/task/v3/internal/omap"
 )
 
 // Vars is a string[string] variables map.

@@ -24,7 +24,7 @@ sidebar_position: 8
 
 ## Схема
 
-This was initially created by @KROSF in [this Gist](https://gist.github.com/KROSF/c5435acf590acd632f71bb720f685895) and is now officially maintained in [this file](https://github.com/go-task/task/blob/main/docs/static/schema.json) and made available at https://taskfile.dev/schema.json. Эта схема может быть использована для проверки Task файлов и автодополнения во многих редакторах кода:
+This was initially created by @KROSF in [this Gist](https://gist.github.com/KROSF/c5435acf590acd632f71bb720f685895) and is now officially maintained in [this file](https://github.com/saturn4er/task/blob/main/docs/static/schema.json) and made available at https://taskfile.dev/schema.json. Эта схема может быть использована для проверки Task файлов и автодополнения во многих редакторах кода:
 
 ### Visual Studio Code
 

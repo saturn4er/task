@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/go-task/task/v3/internal/goext"
+	"github.com/saturn4er/task/v3/internal/goext"
 )
 
 // Platform represents GOOS and GOARCH values

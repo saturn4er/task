@@ -84,7 +84,7 @@ If you added a new field, command or flag, ensure that you add it to the [API Re
 <!-- prettier-ignore-start -->
 
 <!-- prettier-ignore-end -->
-[task]: https://github.com/go-task/task
+[task]: https://github.com/saturn4er/task
 [vscode-task]: https://github.com/go-task/vscode-task
 [go]: https://go.dev
 [gofumpt]: https://github.com/mvdan/gofumpt
@@ -93,10 +93,10 @@ If you added a new field, command or flag, ensure that you add it to the [API Re
 [nodejs]: https://nodejs.org/en/
 [yarn]: https://yarnpkg.com/
 [docusaurus]: https://docusaurus.io
-[json-schema]: https://github.com/go-task/task/blob/main/docs/static/schema.json
-[task-open-issues]: https://github.com/go-task/task/issues
+[json-schema]: https://github.com/saturn4er/task/blob/main/docs/static/schema.json
+[task-open-issues]: https://github.com/saturn4er/task/issues
 [vscode-task-open-issues]: https://github.com/go-task/vscode-task/issues
-[good-first-issue]: https://github.com/go-task/task/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
+[good-first-issue]: https://github.com/saturn4er/task/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 [discord-server]: https://discord.gg/6TY36E39UK
-[discussion]: https://github.com/go-task/task/discussions
+[discussion]: https://github.com/saturn4er/task/discussions
 [conventional-commits]: https://www.conventionalcommits.org

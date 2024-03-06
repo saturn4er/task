@@ -20,6 +20,6 @@ In December 2023, the final version of Task that supports the version 2 schema (
 <!-- prettier-ignore-start -->
 
 <!-- prettier-ignore-end -->
-[v3.0.0]: https://github.com/go-task/task/releases/tag/v3.0.0
-[v3.33.0]: https://github.com/go-task/task/releases/tag/v3.33.0
-[deprecation-notice]: https://github.com/go-task/task/issues/1197
+[v3.0.0]: https://github.com/saturn4er/task/releases/tag/v3.0.0
+[v3.33.0]: https://github.com/saturn4er/task/releases/tag/v3.33.0
+[deprecation-notice]: https://github.com/saturn4er/task/issues/1197

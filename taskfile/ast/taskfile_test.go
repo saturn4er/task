@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/go-task/task/v3/internal/omap"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/saturn4er/task/v3/internal/omap"
+	"github.com/saturn4er/task/v3/taskfile/ast"
 )
 
 func TestCmdParse(t *testing.T) {

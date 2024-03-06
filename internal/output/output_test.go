@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-task/task/v3/internal/omap"
-	"github.com/go-task/task/v3/internal/output"
-	"github.com/go-task/task/v3/internal/templater"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/saturn4er/task/v3/internal/omap"
+	"github.com/saturn4er/task/v3/internal/output"
+	"github.com/saturn4er/task/v3/internal/templater"
+	"github.com/saturn4er/task/v3/taskfile/ast"
 )
 
 func TestInterleaved(t *testing.T) {

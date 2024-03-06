@@ -445,7 +445,7 @@ Task now has an [official extension for Visual Studio Code](https://marketplace.
 - Added support for [including other Taskfiles](https://taskfile.org/#/usage?id=including-other-taskfiles) (#98)
   - This should be considered experimental. For now, only including local files is supported, but support for including remote Taskfiles is being discussed. If you have any feedback, please comment on #98.
 - Task now have a dedicated documentation site: https://taskfile.org
-  - Thanks to [Docsify](https://docsify.js.org/) for making this pretty easy. To check the source code, just take a look at the [docs](https://github.com/go-task/task/tree/main/docs) directory of this repository. Contributions to the documentation is really appreciated.
+  - Thanks to [Docsify](https://docsify.js.org/) for making this pretty easy. To check the source code, just take a look at the [docs](https://github.com/saturn4er/task/tree/main/docs) directory of this repository. Contributions to the documentation is really appreciated.
 
 ## v2.1.1 - 2018-09-17
 
@@ -463,7 +463,7 @@ Task now has an [official extension for Visual Studio Code](https://marketplace.
 - Expand environment variables on "dir", "sources" and "generates" (#116)
 - Fix YAML merging syntax (#112)
 - Add ZSH completion (#111)
-- Implement new `output` option. Please check out the [documentation](https://github.com/go-task/task#output-syntax)
+- Implement new `output` option. Please check out the [documentation](https://github.com/saturn4er/task#output-syntax)
 
 ## v2.0.2 - 2018-05-01
 
@@ -477,7 +477,7 @@ Task now has an [official extension for Visual Studio Code](https://marketplace.
 
 Version 2.0.0 is here, with a new Taskfile format.
 
-Please, make sure to read the [Taskfile versions](https://github.com/go-task/task/blob/main/TASKFILE_VERSIONS.md) document, since it describes in depth what changed for this version.
+Please, make sure to read the [Taskfile versions](https://github.com/saturn4er/task/blob/main/TASKFILE_VERSIONS.md) document, since it describes in depth what changed for this version.
 
 - New Taskfile version 2 (#77)
 - Possibility to have global variables in the `Taskfile.yml` instead of `Taskvars.yml` (#66)

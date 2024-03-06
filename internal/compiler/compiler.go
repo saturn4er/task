@@ -11,12 +11,12 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/go-task/task/v3/internal/execext"
-	"github.com/go-task/task/v3/internal/filepathext"
-	"github.com/go-task/task/v3/internal/logger"
-	"github.com/go-task/task/v3/internal/templater"
-	"github.com/go-task/task/v3/internal/version"
-	"github.com/go-task/task/v3/taskfile/ast"
+	"github.com/saturn4er/task/v3/internal/execext"
+	"github.com/saturn4er/task/v3/internal/filepathext"
+	"github.com/saturn4er/task/v3/internal/logger"
+	"github.com/saturn4er/task/v3/internal/templater"
+	"github.com/saturn4er/task/v3/internal/version"
+	"github.com/saturn4er/task/v3/taskfile/ast"
 )
 
 type Compiler struct {

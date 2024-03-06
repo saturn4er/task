@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/experiments"
+	"github.com/saturn4er/task/v3/errors"
+	"github.com/saturn4er/task/v3/internal/experiments"
 )
 
 type Node interface {

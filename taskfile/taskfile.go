@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-task/task/v3/errors"
-	"github.com/go-task/task/v3/internal/filepathext"
-	"github.com/go-task/task/v3/internal/sysinfo"
+	"github.com/saturn4er/task/v3/errors"
+	"github.com/saturn4er/task/v3/internal/filepathext"
+	"github.com/saturn4er/task/v3/internal/sysinfo"
 )
 
 var (

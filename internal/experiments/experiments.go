@@ -12,7 +12,7 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/spf13/pflag"
 
-	"github.com/go-task/task/v3/internal/logger"
+	"github.com/saturn4er/task/v3/internal/logger"
 )
 
 const envPrefix = "TASK_X_"
