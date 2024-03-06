@@ -115,6 +115,7 @@ func (r *Templater) replaceVars(vars *ast.Vars, extra map[string]any) *ast.Vars 
 		newVar.Ref = v.Ref
 		newVar.Json = r.ReplaceWithExtra(v.Json, extra)
 		newVar.Yaml = r.ReplaceWithExtra(v.Yaml, extra)
+		newVar.Overwrite = v.Overwrite
 		newVars.Set(k, newVar)
 		return nil
 	})

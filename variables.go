@@ -111,14 +111,14 @@ func (e *Executor) compiledTask(call *ast.Call, evaluateShVars bool) (*ast.Task,
 		err = new.Env.Range(func(k string, v ast.Var) error {
 			// If the variable is not dynamic, we can set it and return
 			if v.Value != nil || v.Sh == "" {
-				new.Env.Set(k, ast.Var{Value: v.Value})
+				new.Env.Set(k, ast.Var{Value: v.Value, Overwrite: v.Overwrite})
 				return nil
 			}
 			static, err := e.Compiler.HandleDynamicVar(v, new.Dir)
 			if err != nil {
 				return err
 			}
-			new.Env.Set(k, ast.Var{Value: static})
+			new.Env.Set(k, ast.Var{Value: static, Overwrite: v.Overwrite})
 			return nil
 		})
 		if err != nil {
