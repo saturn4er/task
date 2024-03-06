@@ -1,4 +1,4 @@
-module github.com/go-task/task/v3
+module github.com/saturn4er/task/v3
 
 go 1.21
 
